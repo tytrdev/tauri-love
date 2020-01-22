@@ -1,0 +1,20 @@
+{
+  "name": "tauri-love",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.5",
+    "sass": "^1.25.0",
+    "svelte": "^3.17.2",
+    "tauri": "^0.3.1"
+  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ]
+}
